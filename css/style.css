@@ -1,0 +1,146 @@
+.bgimg{
+	background-image: url('../koko/lol.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 791px;
+}
+
+.headerset{
+	padding-top: 280px;
+	box-sizing: border-box;
+}
+
+.headerset h2{
+	font-size:42px;
+}
+
+.headerset h1{
+	font-size: 72px;
+	font-weight: bold;   
+}
+
+
+/*.....................ourservice........................*/
+
+.ourservice{
+	padding: 100px 0px  60px;
+	height: 700px;
+}
+
+.ourservice{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.card-columns{
+	margin: 90px 0px;
+}
+
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+.fa-shopping-cart{
+	margin-top:20px;
+	margin-right: 5px;
+}
+
+.fa-desktop{
+	margin-top: 25px;
+}
+
+.fa-lock{
+	margin-top: 20px;
+}
+
+
+/*/////////////portfolio\\\\\\\\\\\\\\*/
+
+.portfolio{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+
+.portfolio h1{
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.portfolio p{
+	font-size: 40px;
+}
+.card{
+	margin-top: 40px;
+}
+
+/*///////////ourteam\\\\\\\\\\\\\\\*/
+
+.ourteam{
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+
+.ourteam h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.teamsetting{
+	margin-top: 70px;
+}
+
+/*/////////////footer\\\\\\\\\\\\\\\\\*/
+
+.myline{
+	margin-top: 100px;
+	
+}
+
+
+
+/*///////////Responsive\\\\\\\\\\\\\\\*/
+
+@media(min-width: 1013px){
+
+}
+
+@media(min-width: 789px) and (max-width: 1012px){
+
+}
+
+@media(min-width: 596px) and (max-width: 788px){
+
+}
+
+@media(min-width: 501px) and (max-width: 595px){
+
+}
+
+@media (max-width: 500px) {
+	.headerset h2{
+	font-size:22px;
+	}
+
+	.headerset h1{
+	font-size: 32px;
+	font-weight: bold;   
+	}
+
+	.ourservice{
+		height: 1200px;
+	}
+
+	.portfolio{
+		height: 50%;
+	}
+
+	.myline{
+		margin-top: 230%;
+		font-size: 20px;
+	}
+}
